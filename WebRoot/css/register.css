@@ -1,0 +1,109 @@
+div, ul, ol, li, body {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+body {
+	background-color: rgb(249, 249, 249);
+}
+
+form {
+	margin: auto;
+	box-shadow: 3px 3px 3px #888888;
+}
+
+.img {
+	width: 50px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+.register {
+	width: 786px;
+	background-color: #fff;
+	height: 650px;
+}
+
+.register p {
+	display: inline-block;
+	color: rgb(245, 102, 0);
+	font-weight: bolder;
+	font-size: 30px;
+	width: 786px;
+	text-align: center;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.register input[type="text"], input[type="password"] {
+	width: 306px;
+}
+
+.register input[type="text"], input[type="password"] {
+	height: 22px;
+	line-height: 22px;
+	padding: 8px 16px 8px 14px;
+	display: block;
+	margin: auto;
+}
+
+.register input[type="radio"] {
+	position: relative;
+	left: 230px;
+}
+
+.btn {
+	width: 768px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.register input[type="reset"], input[type="submit"] {
+	height: 48px;
+	line-height: 22px;
+	width: 170px;
+	border: 0px;
+	background-color: rgb(245, 102, 0);
+	cursor: pointer;
+	color: #fff;
+	font-size: 18px;
+}
+
+span {
+	position: relative;
+	left: 230px;
+	padding-left: 10px;
+}
+
+.bz {
+	font-size: 12px;
+	color: #aaa;
+	width: 768px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.language ul li {
+	float: left;
+}
+
+.foot {
+	width: 100%;
+}
+
+.language {
+	width: 230px;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.f {
+	width: 660px;
+	margin: auto;
+	padding-bottom: 20px;
+}

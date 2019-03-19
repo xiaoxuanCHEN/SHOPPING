@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doLoiginServlet</servlet-name>
+    <servlet-class>xm.chen.controller.doLoiginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>checkPhoneServlet</servlet-name>
+    <servlet-class>xm.chen.controller.checkPhoneServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doRegisterServlet</servlet-name>
+    <servlet-class>xm.chen.controller.doRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doEditUserServlet</servlet-name>
+    <servlet-class>xm.chen.controller.doEditUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doGoodsTypeList</servlet-name>
+    <servlet-class>xm.chen.controller.doGoodsTypeList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doGoodsServlet</servlet-name>
+    <servlet-class>xm.chen.controller.doGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doImgServlet</servlet-name>
+    <servlet-class>xm.chen.controller.doImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doMyCartServlet</servlet-name>
+    <servlet-class>xm.chen.controller.doMyCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doOrderServlet</servlet-name>
+    <servlet-class>xm.chen.controller.doOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doOrderDetailServlet</servlet-name>
+    <servlet-class>xm.chen.controller.doOrderDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doCommentServlet</servlet-name>
+    <servlet-class>xm.chen.controller.doCommentServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>doLoiginServlet</servlet-name>
+    <url-pattern>/doLoiginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkPhoneServlet</servlet-name>
+    <url-pattern>/checkPhoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doRegisterServlet</servlet-name>
+    <url-pattern>/doRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doEditUserServlet</servlet-name>
+    <url-pattern>/doEditUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doGoodsTypeList</servlet-name>
+    <url-pattern>/doGoodsTypeList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doGoodsServlet</servlet-name>
+    <url-pattern>/doGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doImgServlet</servlet-name>
+    <url-pattern>/doImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doMyCartServlet</servlet-name>
+    <url-pattern>/doMyCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doOrderServlet</servlet-name>
+    <url-pattern>/doOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doOrderDetailServlet</servlet-name>
+    <url-pattern>/doOrderDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doCommentServlet</servlet-name>
+    <url-pattern>/doCommentServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

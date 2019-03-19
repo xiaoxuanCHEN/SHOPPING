@@ -1,0 +1,211 @@
+/*数据样式*/
+.order table {
+	width: 1080px;
+	margin-top: 50px;
+}
+
+.order table td, th {
+	text-align: center;
+	padding: 3px 0px;
+}
+
+/*分页样式*/
+a:HOVER {
+	text-decoration: none;
+}
+
+.page {
+	position: absolute;
+	left: 300px;
+	top: 500px;
+}
+
+.page ul li {
+	list-style: none;
+	float: left;
+	border: 1px solid #dedede;
+	padding: 2px 3px;
+	margin: 0px 3px;
+}
+
+#currentpage {
+	background-color: #A9A9A9;
+}
+
+/*支付...样式*/
+.btn1 {
+	margin-top: 10px;
+	margin-bottom: -10px;
+	width: 100px;
+	height: 26px;
+	border: 0px;
+	background-color: rgb(245, 102, 0);
+	cursor: pointer;
+	color: #fff;
+}
+
+.btn1:HOVER {
+	background-color: rgb(255, 66, 66);
+	color: #000;
+}
+
+.m-modal, .m-modal1, .m-modal2, .m-modal3 {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+	z-index: 1000;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, .2);
+	z-index: 1000;
+	z-index: 1000;
+}
+
+.m-modal-dialog, .m-modal-dialog3 {
+	font-family: "microsoft yahei", "宋体";
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+	background-color: #ffffff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.m-modal-dialog1 {
+	font-family: "microsoft yahei", "宋体";
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	background-color: #ffffff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.m-modal-dialog2 {
+	font-family: "microsoft yahei", "宋体";
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	background-color: #ffffff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.m-top, .m-top1, .m-top2, .m-top3 {
+	border-bottom: 1px solid #EEEEEE;
+	background-color: #dedede;
+}
+
+.m-modal-title, .m-modal-title1, .m-modal-title2, .m-modal-title3 {
+	margin: 0;
+	color: #ff8000;
+	font-size: 22px;
+	padding: 12px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.m-modal-close, .m-modal-close1, .m-modal-close2, .m-modal-close3 {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	display: inline-block;
+	font-size: 35px;
+	line-height: 20px;
+	color: #555;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.m-modal-close:hover, .m-modal-close1:hover, .m-modal-close2:hover,
+	.m-modal-close3:hover {
+	color: #FF0033;
+}
+
+.m-middle, .m-middle1 {
+	padding: 12px;
+}
+
+.m-middle2, .m-middle3 {
+	padding: 12px;
+}
+
+.m-modal input {
+	margin: 2px 3px;
+}
+
+.m-bottom {
+	border-top: 1px solid #EEEEEE;
+	padding: 12px;
+	overflow: hidden;
+}
+
+.m-bottom button {
+	font-family: "microsoft yahei", "宋体";
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 5px 20px;
+	float: right;
+	margin: 0 0 0 10px;
+	outline: none;
+	font-size: 14px;
+	color: #333;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.m-bottom button:hover {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad;
+}
+
+.m-bottom button:active {
+	color: #333;
+	background-color: #d4d4d4;
+	border-color: #8c8c8
+}
+
+.m-bottom .m-btn-sure {
+	color: #fff;
+	background-color: rgb(245, 102, 0);
+	border-color: #d94600;
+}
+
+.m-bottom .m-btn-sure2 {
+	color: #fff;
+	background-color: rgb(245, 102, 0);
+	border-color: #d94600;
+}
+
+.m-bottom .m-btn-sure:hover {
+	color: #fff;
+	background-color: rgb(245, 66, 66);
+	border-color: #ff0000;
+}
+
+.m-bottom .m-btn-sure2:hover {
+	color: #fff;
+	background-color: rgb(245, 66, 66);
+	border-color: #ff0000;
+}
+
+.m-bottom .m-btn-sure:active {
+	color: #fff;
+	background-color: #204d74;
+	border-color: #122b40;
+}
